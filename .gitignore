@@ -1,0 +1,88 @@
+# =====================================
+# OS Files
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# Environment Variables
+# =====================================
+.env
+.env.*
+*.local
+
+# =====================================
+# Logs
+# =====================================
+*.log
+logs/
+
+# =====================================
+# Python Backend
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing / Coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Django specific (if applicable)
+db.sqlite3
+media/
+
+# =====================================
+# React Frontend
+# =====================================
+node_modules/
+build/
+dist/
+coverage/
+
+# Vite
+vite.svg
+
+# Next.js (if used)
+.next/
+out/
+
+# =====================================
+# Package Managers
+# =====================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =====================================
+# IDE / Editors
+# =====================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================================
+# Misc
+# =====================================
+.cache/
+.tmp/
+*.tsbuildinfo
